@@ -1,6 +1,6 @@
 import { inject, injectable } from 'tsyringe';
 
-import { ICategoriesRepository } from '@modules/cars/repositories/implementations/ICategoriesRepository';
+import { ICategoriesRepository } from '@modules/cars/repositories/ICategoriesRepository';
 import loadCategories from '@utils/loadCategories';
 
 @injectable()

@@ -1,7 +1,8 @@
 import { inject, injectable } from 'tsyringe';
 
+import { ISpecificationsRepository } from '@modules/cars/repositories/ISpecificationsRepository';
+
 import { Specification } from '../../infra/typeorm/entities/Specification';
-import { ISpecificationsRepository } from '../../repositories/implementations/ISpecificationsRepository';
 
 @injectable()
 class ListSpecificationsUseCase {
